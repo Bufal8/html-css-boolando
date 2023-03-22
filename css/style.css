@@ -43,6 +43,39 @@
     cursor: pointer;
 }
 
+/* Regole main */
+.product{
+    margin-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.bloc{
+    margin-bottom: 40px;
+}
+
+.cloth{
+    height: 460px;
+    align-items: center;
+    justify-content: space-evenly;
+    width: auto;
+    margin: 0px 10px;
+}
+
+.info{
+    margin-left: 10px;
+}
+
+.brand{
+    font-size: 14px;
+}
+
+.red{
+    color: red;
+    font-weight: 600;
+}
 /* Regole footer */
 
 footer{
