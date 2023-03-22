@@ -54,6 +54,7 @@
 
 .bloc{
     margin-bottom: 40px;
+    position: relative;
 }
 
 .cloth{
@@ -75,6 +76,24 @@
 .red{
     color: red;
     font-weight: 600;
+}
+
+.label{
+    display: flex;
+    position: absolute;
+    left: 10px;
+    bottom: 80px;
+    color: #fff;
+    padding: 5px;
+    margin-right: 5px;
+}
+
+.eco{
+    background-color: green;
+}
+
+.discount{
+    background-color: red;
 }
 /* Regole footer */
 
