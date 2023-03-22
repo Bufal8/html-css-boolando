@@ -87,9 +87,24 @@
     padding: 5px;
     margin-right: 5px;
 }
+.whishlist{
+    color: black;
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #fff;
+    padding: 5px 10px;
+}
+
+.whishlist:hover{
+    color: red;
+    cursor: pointer;
+}
 
 .eco{
     background-color: green;
+    position: absolute;
 }
 
 .discount{
