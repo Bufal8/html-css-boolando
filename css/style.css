@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Regole generali */
+
+.container{
+    padding: 0 10%;
+}
+
+/* Regole testata */
+
+.testata{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    background-color: #FF6900;
+    color: #fff;
+    top: 0;
+    left: 0;
+    z-index: 900;
+}
+
+.category{
+    text-align: center;
+}
+
+.logo img{
+    width: 150px;
+}
+.gender:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.menu:hover{
+    text-decoration:overline;
+    cursor: pointer;
+}
+
+/* Regole footer */
+
+footer{
+    color: #fff;
+}
+.pie{
+    background-color: #1A1A1A;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 100%;
+}
+
