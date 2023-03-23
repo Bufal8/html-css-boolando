@@ -65,6 +65,21 @@
     margin: 0px 10px;
 }
 
+
+.bside{
+    display: none;
+}
+
+.foto:hover .bside{
+    z-index: 10;
+}
+
+.foto:hover .face{
+    z-index:9;
+}
+
+
+
 .info{
     margin-left: 10px;
 }
@@ -103,7 +118,6 @@
 }
 
 .eco{
-    position: absolute;
     background-color: green;
 }
 
